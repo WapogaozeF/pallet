@@ -1,0 +1,72 @@
+$accent_orange: #f77f00;
+
+.h1 {
+  color: $accent_orange;
+  font-size: 0.7rem;
+  margin-left: 0.5rem;
+  margin-top: 0.3rem;
+  font-weight: normal;
+}
+
+.text {
+  width: auto;
+  height: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 1.5rem;
+  width: 100%;
+}
+.header {
+  font-size: 1rem;
+  line-height: 0.8;
+  color: #f77f00;
+  font-weight: 300;
+  text-align: left;
+  margin-left: 0.4rem;
+  margin-top: 0.6rem;
+}
+.sub-header {
+  font-size: 1.4rem;
+  color: #f77f00;
+  font-weight: 300;
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+  display: none;
+}
+.image {
+  height: 2rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+@media (min-width: 576px) {
+  .h1 {
+    font-size: 1.2rem;
+  }
+  .sub-header {
+    display: block;
+  }
+  .header {
+    display: none;
+  }
+}
+
+@media (min-width: 786px) {
+  .h1 {
+    font-size: 1.8rem;
+  }
+  .image {
+    height: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sub-header {
+    font-size: 1.8rem;
+  }
+}

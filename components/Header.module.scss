@@ -1,0 +1,75 @@
+$accent_blue: #003049;
+$accent_orange: #f77f00;
+
+.nav {
+  background-color: $accent_blue;
+  width: 100%;
+}
+
+.link {
+  color: white !important;
+  font-size: 1.25rem !important;
+  text-decoration: underline !important;
+  text-decoration-color: transparent !important;
+  cursor: pointer !important;
+}
+
+.link:hover,
+.link:active {
+  text-decoration-color: white !important;
+  color: white !important;
+  font-size: 1.25rem !important;
+  text-decoration: underline !important;
+  transition: all ease 0.3s;
+}
+.link .active {
+  text-decoration: underline;
+}
+
+.toggle,
+.toggle:active,
+.toggle:focus,
+.toggle:hover {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.icon {
+  width: 2rem !important;
+}
+
+.sub-header {
+  margin-top: 0.8rem;
+  color: $accent_orange;
+  text-align: center;
+  width: 100%;
+  background-color: #003049;
+  font-weight: 300;
+  margin: 0 !important;
+  padding: 0.4rem 0 0.25rem 0 !important;
+  font-size: 1.1rem;
+}
+
+.navbar-collapse {
+  padding-top: 1rem !important;
+}
+
+@media (min-width: 576px) {
+  .sub-header {
+    display: none;
+    text-align: center;
+  }
+  .link {
+    font-size: 1.5rem !important;
+  }
+  .link:hover,
+  .link:active {
+    font-size: 1.5rem !important;
+  }
+}
+
+.logo {
+  align-items: center;
+  width: 100%;
+}
+

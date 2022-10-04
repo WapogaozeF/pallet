@@ -1,0 +1,21 @@
+.header {
+  font-weight: bold;
+  font-size: 2.375rem;
+  margin-bottom: 1.5625rem;
+}
+
+.list {
+  margin-bottom: 3.125rem;
+}
+
+@media (min-width: 576px) {
+  .list {
+    margin-bottom: 4.375rem;
+  }  
+}
+
+@media (min-width: 768px) {
+  .list {
+    margin-bottom: 3.75rem;
+  }  
+}

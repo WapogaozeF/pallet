@@ -1,0 +1,15 @@
+$accent_blue: #003049;
+
+.service {
+  margin-bottom: 2.5rem;
+}
+
+.bg-dark {
+  background-color: $accent_blue;
+}
+
+@media (min-width: 992px) {
+  .bg-dark {
+    background-color: transparent;
+  }
+}

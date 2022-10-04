@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://palletufa.com/api/sitemap
+Sitemap: http://palletufa.com/api/sitemap

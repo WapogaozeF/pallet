@@ -1,0 +1,106 @@
+$accent_orange: #f77f00;
+$accent_blue: #003049;
+
+.header {
+  color: $accent_orange;
+  font-size: 1.5625rem;
+  margin-bottom: 0.4375rem;
+}
+
+.text {
+  color: $accent_blue;
+  font-size: 1.375rem;
+  margin-bottom: 1.5625rem;
+  line-height: 1.5;
+}
+
+.text-alt {
+  color: #fcfeff;
+}
+
+.image {
+  height: 10vh;
+  // width: 55%;
+  margin-top: 1.3rem;
+  margin-bottom: 1.5625rem;
+}
+
+.medium-text {
+  margin-top: 1.5625rem;
+  margin-bottom: 1.5625rem;
+}
+
+.medium-header {
+  margin-top: 1.5625rem;
+  margin-bottom: 0;
+}
+
+@media (min-width: 576px) {
+  .header {
+    font-size: 2.365rem;
+  }
+
+  .text {
+    font-size: 1.625rem;
+    // margin-bottom: 3.125rem;
+  }
+
+  .image {
+    width: 100%;
+    height: 20vh;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .header {
+    font-size: 1.75rem;
+  }
+
+  .text {
+    font-size: 1.375rem;
+  }
+  .image {
+    width: 60%;
+    height: 20vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .header {
+    font-size: 1.5625rem;
+  }
+
+  .text {
+    font-size: 1.3125rem;
+  }
+
+  .text-alt {
+    color: $accent_blue;
+  }
+
+  .image {
+    width: 70%;
+    height: 15vh;
+  }
+}
+
+@media (min-width: 1140px) {
+  .header {
+    font-size: 1.875rem;
+  }
+
+  .text {
+    font-size: 1.3125rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .header {
+    font-size: 2rem;
+  }
+
+  .text {
+    font-size: 1.375rem;
+  }
+}
