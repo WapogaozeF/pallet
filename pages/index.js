@@ -54,6 +54,12 @@ export default function Home({
         <link
           rel="icon"
           type="image/png"
+          sizes="120x120"
+          href="/favicon-120x120.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
           sizes="32x32"
           href="/favicon-32x32.png"
         />
